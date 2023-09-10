@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAZOR PAY</title>
+</head>
+<style>
+.box{
+    padding: 40px;
+    border: 5px solid ;
+    border-color: rgb(122, 183, 30);
+    margin: 30px;
+    background-color: rgb(248, 249, 228);
+    border-radius: 20px;
+    }
+    .input{
+        width: 100%;
+        padding: 10px;
+        overflow: hidden;
+        border: 3px solid rgb(25, 145, 6);
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+    .p{
+        padding: 30px;
+        
+    }
+    .boo{
+        box-sizing: border-box;
+        width: 100%;
+        font-size: xx-large;
+        text-align: center;
+        text-decoration: solid;
+        padding: 10px;
+        border: 3px solid rgb(12, 9, 190);
+        border-radius: 10px;
+        background-color: rgb(183, 235, 241)
+    }
+    .boo:hover{
+        background-color: aquamarine;
+        border: 3px solid rgb(5, 149, 99);
+    }
+    
+    
+</style>
+<body class="full">
+    <div class="box">
+
+    <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: xxx-large; text-align: center;">PAYMENT FORM</h1>
+    <hr>
+    <h2 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: xx-large;">User Information</h2>
+    <p> NAME <br>
+    <input class="input" type="text" placeholder="rajesh sharma"> <br>
+    </p>
+    <p>
+    <fieldset style="border-radius: 10px;border:3px solid rgb(25, 145, 6); padding: 20px; background-color: white; ">
+   <legend> GENDER </legend>
+    MALE <input type="radio" >
+    FEMALE <input type="radio">
+    DO NOT PREFER TO SAY <input type="radio">
+    </fieldset><br>
+    </p>
+    <p>
+    ADRESS <br>
+    <input  class="input"type="text"><br>
+    </p>
+    <p>
+    EMAIL <br>
+    <input  class="input"type="email" ><br>
+    </p>
+    <p>
+    PINCODE <br>
+    <input  class="input"type="number"><br>
+    </p>
+    <hr>
+    <p>
+    <h2 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: xx-large;">Payment Information</h2><br>
+    CARD TYPE <br>
+</p>
+<p>
+    <select class="input" name="card" id="type">
+        <option value="-----select-----">-----select-----</option>
+        <option value="RUPAY">RUPAY</option>
+        <option value="AMERICAN EXPRESS">AMERICAN EXPRESS</option>
+        <option value="MASTERCARD">MASTERCARD</option>
+        <option value="MAESTRO">MAESTRO</option>
+        <option value="VISA">VISA</option>
+    </select> <br></p>
+    <p>
+    CARD NUMBER <br>
+    <input  class="input"type="number"><br></p>
+    <p>
+    EXPIRATION DATE <br></p>
+    <p>
+    <input class="input"type="date" ><br></p>
+    <p>
+    CVV <br>
+    <input class="input"type="number"> <br></p>
+    <p>
+    <button class="boo" >PAY NOW</button></p>
+    </div>
+
+
+</body>
+</html>
