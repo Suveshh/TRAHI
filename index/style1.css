@@ -3,7 +3,8 @@
     margin: 0px;
 }
 #bodd{
-    background-color:#b8b8b8
+    background-color:#b8b8b8;
+    overflow-x: hidden;
 }
 .trahi{
     display: flex;
